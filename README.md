@@ -3,9 +3,11 @@
 This project contains basic Java programs for Tasks 01 to 12.
 
 ## Purpose
+
 The assignment helps practice Java basics such as variables, input/output, conditions, loops, and simple logic.
 
 ## Tasks
+
 - Task01: Welcome program
 - Task02: Addition of two numbers
 - Task03: Average of three numbers
@@ -19,46 +21,44 @@ The assignment helps practice Java basics such as variables, input/output, condi
 - Task11: Multiplication table
 - Task12: Grade calculation
 
-## Compile Java programs
+## Compile Java Programs
+
 From the project root, compile a task using:
 
 ```bash
 javac Task01/Task01.java
 ```
 
-## Run Java programs
-Run the compiled class with:
+## Run Java Programs
 
 ```bash
 java -cp Task01 Task01
 ```
 
-## Project structure
+## Project Structure
+
 ```text
-ASSIGNMENT 1/
-??? Task01/
-??? Task02/
-??? Task03/
-??? Task04/
-??? Task05/
-??? Task06/
-??? Task07/
-??? Task08/
-??? Task09/
-??? Task10/
-??? Task11/
-??? Task12/
-??? reports/
-??? src/
-?   ??? main/java/
-?   ??? test/java/
-??? README.md
-??? .gitignore
-??? pom.xml
+ASSIGNMENT-1/
+├── Task01/
+├── Task02/
+├── Task03/
+├── Task04/
+├── Task05/
+├── Task06/
+├── Task07/
+├── Task08/
+├── Task09/
+├── Task10/
+├── Task11/
+├── Task12/
+├── reports/
+├── src/
+├── README.md
+├── .gitignore
+└── pom.xml
 ```
 
-## Maven build
-You can also build the project using Maven:
+## Maven Build
 
 ```bash
 mvn compile
